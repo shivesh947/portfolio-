@@ -1,0 +1,24 @@
+#aboutlogo {
+    width: 275px;
+    height: 200px;
+}
+.card-title{
+    font-Size:135%;
+    background-color: #00000091;
+}
+#insidecard {
+    padding:30px;
+    border-radius: 20px;
+    
+}
+#dis, #edix, #pdis{
+    font-size:20px;
+    font-family: 'Noticia Text', serif;
+}
+#edis{
+    font-size: 22px;
+}
+#linkdata a
+{
+    color: whitesmoke;
+}

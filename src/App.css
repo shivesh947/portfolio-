@@ -1,0 +1,57 @@
+.sticky{
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+ }
+#imglogo{
+   height: 100%;
+   position: absolute;
+}
+#about{
+   /* clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); */
+   background: #1aa79b;
+   min-height: 100vh;
+}
+
+#Skills{
+   position: relative;
+   padding-bottom: 160px;
+   /* background-image: linear-gradient(45deg, #0095ff, #00f36194); */
+   background-image: linear-gradient(45deg, #0095ff, #00f361);
+   min-height: 100vh;
+}
+
+#Portfolio{
+   background-image: linear-gradient(62deg, #0095ff, #00e081c4 ,#0095ffb3, #00e081);
+   padding-bottom: 90px;
+   min-height: 100vh;
+   position: relative;
+}
+#footer{
+   /* clip-path: polygon(16% 7%, 100% 0, 100% 100%, 0 100%, 0 100%, 0 0); */
+   position: relative;
+   background-image: linear-gradient(0deg, #79a3d7, transparent);
+}
+
+.fade{
+   background-color: #826eee;
+}
+body{
+   background: linear-gradient(56deg,#5499C7,#5B2C6F);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+*{
+   margin:0;
+   padding: 0;
+}
+.row{
+   margin-bottom: 0;
+}
+
+#loder{
+   margin-top: 25%;
+}
+#loder{
+   height: 100vh;
+}

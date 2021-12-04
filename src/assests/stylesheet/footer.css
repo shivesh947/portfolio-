@@ -1,0 +1,28 @@
+#co img{
+    width: 50px;
+}
+#co p{
+    letter-spacing: 15px;
+}
+#co{
+    font-weight: bolder;
+    color: white;
+
+}
+#Footeris{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(55deg,#723e87,#000000);
+    
+}
+#rect{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+}
+#rect img{
+    width: 100%;
+}
+#co .col{
+    margin-top: 10%;
+}

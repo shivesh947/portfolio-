@@ -1,0 +1,45 @@
+.box{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.box span{
+    display: block;
+    width:30px;
+    height:30px;
+    border-bottom:4px solid white;
+    border-right:4px solid white;
+    transform: rotate(45deg);
+    margin:-10px;
+    animation: animate 2s infinite;
+}
+
+.box span:nth-child(1){
+    animation-delay: 0.2s;
+}
+.box span:nth-child(2){
+    animation-delay: 0.5s;
+}
+
+@keyframes animate{
+    0%{
+        opacity:0.5;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+        transform: rotate(45deg) translate(20px, 20px);
+
+    }
+}
+#projectcard .procard .card{
+    /* box-shadow: 9px 11px 18px 0px #000000; */
+    box-shadow: 9px 9px 9px #00000052, -9px -9px 9px #59538e66;
+    background: rgba(36, 102, 88, 0.25);
+
+}
+

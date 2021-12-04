@@ -1,0 +1,19 @@
+#mobile-demo{
+    border-radius: 0 15% 100% 0;
+    background-image: linear-gradient(45deg, #9a10c7, #ff464694);
+}
+#mobile-demo li a{
+    font-size: 200%;
+    font-weight: 900;
+	padding: 10px 35px;
+    padding-bottom: 60px;
+}
+#navlinkui li a{
+    font-size: 150%;
+}
+#topview{
+    z-index: 100;
+}
+.sidenav-overlay{
+    z-index: 10;
+}

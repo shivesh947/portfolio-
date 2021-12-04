@@ -1,0 +1,30 @@
+.fontdo{
+    background:linear-gradient(56deg,#82E0AA,#F1C40F);
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+#firstpage #fione{
+    height: 100vh;
+    background-color: #21364f;
+}
+#firstpage #fitwo{
+    height: 100vh;
+    background-image: linear-gradient(55deg,#723e87,#000000);
+}
+
+#firstpage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    text-align: center;
+
+}
+.fontdo
+{
+    width: 90vw;
+    margin-top: 30vh;
+    position: absolute;
+    z-index: 10;
+    height: 40%;
+}
